@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 1.75rem;
+  color: hsl(223, 47%, 23%);
+}
+
+p {
+  font-weight: 500;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+  line-height: 1.6;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6.25rem auto 6.25rem auto;
+}
+
+.flexbox1 {
+  width: 450px;
+  height: 220px;
+  margin: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.hero {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.flexbox2 {
+  width: 450px;
+  height: 475px;
+  margin: 0;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+}
+
+.description {
+  margin: 45px 70px 15px 70px;
+}
+
+.plan {
+  height: 100px;
+  width: 352px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+  text-align: left;
+}
+
+.music {
+  float: left;
+  margin: 25px 20px 25px 23px;
+}
+
+.timeplan {
+  position: relative;
+  top: 25px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.price {
+  position: relative;
+  top: 11px;
+}
+
+.change {
+  position: relative;
+  text-align: right;
+  bottom: 42px;
+  left: 186px;
+  font-weight: 900;
+  font-size: 0.85rem;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+}
+
+.Payment-button {
+  position: relative;
+  top: 46px;
+  font-weight: 700;
+  font-size: 0.96rem;
+  color: white;
+  text-decoration: none;
+  border: none;
+  padding: 15px 102px 15px 102px;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0 15px 20px 1px rgba(0, 0, 255, .2);
+}
+
+.cancel {
+  font-weight: 900;
+  font-size: 0.96rem;
+  color: hsl(224, 23%, 55%);
+}
+
+.cancel-order {
+  position: relative;
+  top: 93px;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
